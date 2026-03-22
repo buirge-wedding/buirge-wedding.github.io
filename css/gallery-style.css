@@ -13,7 +13,7 @@
 .gallery img {
     display: block;
     width: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     background-color: hsl(0 0% 90%);
 }
 
