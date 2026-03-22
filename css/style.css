@@ -341,6 +341,7 @@ figure {
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom right;
   position: relative;
   width: 100%;
 }
