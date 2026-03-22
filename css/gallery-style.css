@@ -1,33 +1,3 @@
-.wrapper {
-    max-width: 600px;
-    margin: 2rem auto;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    grid-auto-flow: dense;
-}
-
-.gallery img {
-    display: block;
-    width: fit-content;
-    object-fit: scale-down;
-    background-color: hsl(0 0% 90%);
-}
-
-.gallery-landscape {
-    aspect-ratio: 9 / 6;
-    grid-column-end: span 2;
-}
-
-.gallery-portrait {
-    aspect-ratio: 6 / 9;
-}
-
-
-
 .row {
     display: flex;
     flex-wrap: wrap;
