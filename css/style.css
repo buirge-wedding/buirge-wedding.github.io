@@ -342,7 +342,7 @@ figure {
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center center;
   position: relative;
   width: 100%;
 }
