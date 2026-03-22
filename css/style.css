@@ -344,7 +344,6 @@ figure {
   background-repeat: no-repeat;
   background-position: top center;
   position: relative;
-  width: 100%;
 }
 
 .fh5co-cover .overlay {
@@ -354,7 +353,7 @@ figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.0);
 }
 
 .fh5co-cover>.fh5co-container {
