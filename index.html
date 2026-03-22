@@ -53,6 +53,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!----in head changing width image
 	<style>
 		#fh5co-header,
 		#fh5co-cover {
@@ -72,6 +73,7 @@
 			}
 		}
 	</style>
+	--->
 
 </head>
 
@@ -117,7 +119,9 @@
 		</nav>
 
 		<!--style="background-image:url(images/duluth_engagement_photos/main_page_wide.jpg); background-position:(bottom right);"-->
-		<header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
+		<header id="fh5co-header" class="fh5co-cover" role="banner"
+			style="#fh5co-header, #fh5co-cover {background-image: url(images/duluth_engagement_photos/9by14_mobile_bg.jpg);background-size: cover;} @media (min-width: 960px) {#fh5co-header, #fh5co-cover {background-image: url(images/duluth_engagement_photos/main_page_wide.jpg); background-size: cover;}}"
+			data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
