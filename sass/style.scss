@@ -1744,7 +1744,7 @@ form {
 
 // Burger Menu
 .fh5co-nav-toggle {
-	width: 25px;
+	width: 0px;
 	height: 25px;
 	cursor: pointer;
 	text-decoration: none;
@@ -1767,7 +1767,7 @@ form {
 	i {
 		position: relative;
 		display: inline-block;
-		width: 25px;
+		width: 0px;
 		height: 2px;
 		color: #252525;
 		font: bold 14px/.4 Helvetica;
@@ -1779,7 +1779,7 @@ form {
 		&::before,
 		&::after {
 			content: '';
-			width: 25px;
+			width: 0px;
 			height: 2px;
 			background: #252525;
 			position: absolute;
